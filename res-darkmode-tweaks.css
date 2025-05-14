@@ -1,0 +1,132 @@
+/* ==UserStyle==
+@name           RES Dark Mode Tweaks
+@namespace      https://userstyles.world/user/bakkouz
+@version        1.0.0
+@description    A new userstyle for Reddit Enhancement Suite Dark Mode
+@author         bakkouz
+==/UserStyle== */
+
+@-moz-document domain("reddit.com") {
+
+
+    /* unvisited link */
+    a:link {
+        color: #6a98af;
+    }
+
+    /* visited link */
+    a:visited {
+        color: #6a98af;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: #d25a32;
+    }
+
+    /* selected link */
+    a:active {
+        color: #13bc14;
+    }
+
+    .res-nightmode .entry.res-selected,
+    .res-nightmode .entry.res-selected .md-container {
+        background-color: #212021 !important;
+    }
+
+    .top-matter {
+        background-color: #212021 !important;
+    }
+
+    .entry.unvoted {
+        background-color: #212021 !important;
+        border: 1px solid #212021;
+        border-radius: 25px;
+        padding-left: 5px;
+        padding-top: 2px;
+        padding-bottom: 10px;
+    }
+
+    .res-nightmode .midcol .score,
+    .res-nightmode .moduleButton:not(.enabled) {
+        color: #6a98af;
+    }
+
+    .entry.res-selected,
+    .entry.res-selected .md-container {
+        background-color: #212021 !important;
+    }
+
+    .link {
+        margin: 0;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding-left: 12px;
+        padding-top: 12px;
+        background-color: #212021 !important;
+        border: 1px solid #696969;
+        border-radius: 25px;
+    }
+
+    .thumbnail {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .side {
+        border: 1px solid #696969;
+        border-radius: 25px;
+        padding: 15px;
+        background-color: #26292c;
+    }
+
+    .thing {
+        background-color: #212021;
+    }
+
+    .listing-page {
+        background-color: #2c2c2c;
+    }
+
+    .premium-banner {
+        display: none !important;
+    }
+
+    #header {
+        border-bottom: 1px solid #696969;
+        position: relative;
+        background-color: #696969;
+        z-index: 99;
+        margin-bottom: 50px;
+    }
+
+    #header-bottom-right {
+        background-color: #2c2c2c;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .grippy {
+        display: none !important;
+    }
+
+    .listing-chooser {
+        display: none !important;
+    }
+
+    .rank {
+        display: none !important;
+    }
+
+    .top-matter {
+        background-color: #212021;
+    }
+
+    .entry.unvoted {
+        background-color: #212021;
+    }
+
+    #sr-header-area {
+        background-color: #2c2c2c;
+    }
+}
